@@ -14,12 +14,12 @@ if __name__ == '__main__':
 	"NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", 
 	"SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
 
-	print("#### Nation Park Service - Web Scaper ####")
-	print("##########################################")
+	print("#### National Park Service - Web Scaper ####")
+	print("############################################")
 	print("Available States: ")
 	for i in range(0,len(states),5):
 		print(states[i:i+5])
-	print("##########################################")
+	print("############################################")
 	print("Enter State: " )
 	state = (input().upper())
 	while True:
